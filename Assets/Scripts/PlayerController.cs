@@ -27,7 +27,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
         //transform.Translate(0,0,1);
         //deltaTime is used to ensure the intended object moves at the same speed regardless of FPS
         //Vector3 is the 3 points/position instead of using (0,0,1)
-        
         //Moves the car forward based on vertical input
         transform.Translate(Vector3.forward * Time.deltaTime * speed * forwardInput);
         //Rotates the car based on horizontal input
